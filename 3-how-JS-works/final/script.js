@@ -1,5 +1,5 @@
 /////////////////////////////////////
-// Lecture: Hoisting
+// Lecture: Hoisting variables and fuctions will be ready before execution
 
 /*
 // functions
