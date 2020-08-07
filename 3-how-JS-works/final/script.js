@@ -1,5 +1,5 @@
 /////////////////////////////////////
-// Lecture: Hoisting variables and fuctions will be ready before execution
+// Lecture: Hoisting -variables and fuctions will be ready before execution
 
 /*
 // functions
@@ -32,7 +32,7 @@ console.log(age);
 
 
 /////////////////////////////////////
-// Lecture: Scoping
+// Lecture: Scoping - where can we access a certain variable
 
 /*
 // First scoping example
@@ -77,24 +77,24 @@ function third() {
 // Lecture: The this keyword
 
 /*
-//console.log(this);
+//console.log(this); //windows object
 
 calculateAge(1985);
 
 function calculateAge(year) {
     console.log(2016 - year);
-    console.log(this);
+    console.log(this);//windows object
 }
 
 var john = {
     name: 'John',
     yearOfBirth: 1990,
     calculateAge: function() {
-        console.log(this);
+        console.log(this); //jhon object
         console.log(2016 - this.yearOfBirth);
         
         function innerFunction() {
-            console.log(this);
+            console.log(this); //windows object
         }
         innerFunction();
     }
